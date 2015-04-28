@@ -1,0 +1,99 @@
+body{
+    background-color: #35BFE0;
+}
+
+a, .top-bar.expanded .toggle-topbar a {
+    color: #ffffff;
+}
+
+[class*="block-grid-"] > li{
+    float: none;
+    padding: 0;
+}
+
+.small-block-grid-5 > li{
+    padding: 0;
+}
+
+blockquote {
+    color: #ffffff;
+    font-family: "American Typewriter";
+    border-left: 0 none;
+    margin: 0;
+    padding: 0.5em 10px;
+    font-size: 1.2em;
+}
+
+blockquote:before {
+    color: #ffffff;
+    content: "\201C"; /* Непечатаемый символ слева */
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-right: 0.2em;
+    vertical-align: -0.2em;
+}
+
+blockquote:after {
+    color: #ffffff;
+    content: "\201C"; /* Непечатаемый символ справа */
+    font-size: 2em;
+    line-height: 0.1em;
+    vertical-align: -0.2em;
+}
+
+blockquote > p:first-child {
+    display: inline;
+}
+
+.top-bar-section ul{
+    text-transform: uppercase;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel, .panel.callout, .contain-to-grid {
+    background-color: transparent;
+}
+
+.top-bar, .top-bar.expanded .title-area, .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section ul{
+    background-color: #35BFE0;
+}
+
+.panel.callout p {
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+button.small, .button.small{
+    float: right;
+
+}
+
+.panel.callout a, label {
+    color: #ffffff;
+}
+
+.panel.callout {
+    border-style: none;
+    border-width: 0;
+    margin-bottom: 0;
+    padding:0;
+}
+
+.panel{
+    border-style: none;
+    margin-bottom: 0;
+    padding:0;
+
+}
+
+[data-clearing] li{
+    margin-bottom: 10px;
+}
+
+#empty{
+    margin-bottom: 6rem;
+}
